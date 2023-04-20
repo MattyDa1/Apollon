@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+  <script src="index.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Apollon bar, Aarhus C" />
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Tilt+Prism&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.apollon.ico" />
+  <title>Apollon</title>
+  </head>
+<body>
+  <!--Navigations bar-->
+  <nav class="navbar">
+    <div>
+      <a href="index.html">
+        <img class="logo" src="img/logo.png" alt="logo"/>
+      </a>
+    </div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="index.html">HJEM</a></li>
+        <li><a href="omos.html">OM OS</a></li>
+        <li><a href="kontakt.html">KONTAKT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <img class="apollon_img" src="img/apollon_img.png" alt="apollon"/>
+
+    <article class="omheader">
+      <p>OM<br></p>
+    </article>
+
+    <article class="apollonheader">
+      <p>APOLLON<br></p>
+    </article>
+
+    <article class="apollontekst">
+      <p>Udforsk Apollon med dette map, hvor du kan opleve dens hyggelige og afslappede atmosfære på en helt ny måde. Oplev dens charmerende facade, dens placering i forhold til omgivelserne og lær Apollon bedre at kende.</p>
+    </article>      
+
+    <div class="panorama">
+      <section class="row">
+        <img src="img/måne.png" alt="Måne" class="ikon" onclick="window.location.href='n_udenfor2.html';">
+        <button class="knap" onclick="window.location.href='d_udenfor1.html';">
+          Apollon Front
+        </button>
+
+        <button class="knap" onclick="window.location.href='d_bar.html';">
+          Apollon Bar
+        </button>
+
+        <button class="knap" onclick="window.location.href='d_rygerum.html';">
+          Apollon Rygerum
+        </button>
+      </section>
+      <div id="panorama"></div>
+      <h3 class="omheader margin">Patrick fortæller (Apollon Udenfor)</h3>
+      <iframe width="1000" height="600" src="https://www.youtube.com/embed/93_zgDDl7AQ" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>  
+    </div>
+  </main>
+</body>
+</html>

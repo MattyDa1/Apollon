@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+  <script src="d_bar.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Apollon bar, Aarhus C" />
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Tilt+Prism&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.apollon.ico" />
+  <title>Apollon</title>
+  </head>
+<body>
+  <!--Navigations bar-->
+  <nav class="navbar">
+    <div>
+      <a href="index.html">
+        <img class="logo" src="img/logo.png" alt="logo"/>
+      </a>
+    </div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="index.html">HJEM</a></li>
+        <li><a href="omos.html">OM OS</a></li>
+        <li><a href="kontakt.html">KONTAKT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <img class="apollon_img" src="img/apollon_img.png" alt="apollon"/>
+
+    <article class="omheader">
+      <p>OM<br></p>
+    </article>
+
+    <article class="apollonheader">
+      <p>APOLLON<br></p>
+    </article>
+
+    <article class="apollontekst">
+      <p>Udforsk Apollon med dette map, hvor du kan opleve dens hyggelige og afslappede atmosfære på en helt ny måde. Oplev dens charmerende facade, dens placering i forhold til omgivelserne og lær Apollon bedre at kende.</p>
+    </article>      
+
+    <div class="panorama">
+      <section class="row">
+        <img src="img/måne.png" alt="Måne" class="ikon" onclick="window.location.href='n_udenfor2.html';">
+        <button class="knap" onclick="window.location.href='index.html';">
+          Apollon Udenfor
+        </button>
+  
+        <button class="knap" onclick="window.location.href='d_udenfor1.html';">
+          Apollon Front
+        </button>
+
+        <button class="knap" onclick="window.location.href='d_rygerum.html';">
+          Apollon Rygerum
+        </button>
+      </section>
+      <div id="panorama"></div>
+      <div class="row">
+        <img src="img/Patrick.jpg" alt="Patrick/Bar ejer" class="info_billede">
+        <div class="column">
+          <h3 class="omheader">Bar ejer (baren (bag baren))</h3>
+          <p class="apollontekst">“Hej, jeg hedder Patrick. Jeg er 28 år og ejer Apollon. Jeg står altid i baren, klar til at give jer den bedste service. Vores øl og drinks er billige og altid kolde, så kig forbi!”</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <h3 class="omheader">Stamkunden (baren (bar stol))</h3>
+          <p class="apollontekst">“Jeg er altid kommet i huset. De sidste mange år har det altid været mit faste sted at få en kold øl med vennerne. Hvis du elsker en kold øl og en sludder for en sladder, er det her det perfekte sted at være.”</p>  
+        </div>
+        <img src="img/Stamkunden.jpg" alt="Stamkunden" class="info_billede">
+      </div>
+    </div>
+  </main>
+</body>
+</html>

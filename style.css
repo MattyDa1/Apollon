@@ -1,0 +1,279 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+/* Navigation bar */
+.logo {
+  height: 60px;
+  margin-left: 100px;
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar-links {
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+    list-style-type: none;
+  }
+  
+  .navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    list-style: none;
+  }
+  
+  .navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    padding: 1rem;
+  }
+  
+  .navbar-links li a:hover {
+    color: #FF6FC6;
+    transition: .3s ease-out;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  
+  .toggle-button .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #FF6FC6;
+    border-radius: 10px;
+  }
+  
+  .navbar ul li a.active-page
+  {
+    color: #FF6FC6;
+  }
+  
+  /* Forside */
+  
+  .apollon_img {
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .omheader {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color:rgb(255, 254, 254);
+  }
+  
+  .apollonheader {
+    text-align: center;
+    margin-top: 7px;
+    font-family: 'Tilt Prism', sans-serif;
+    font-size: 3.5rem;
+    color:#FF6FC6;
+  }
+  
+  .apollontekst {
+    text-align: center;
+    padding: 10px 200px 0px 200px;
+    font-family: 'Quick Sand', sans-serif;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    color: #D1A85D;
+  }
+
+.panorama {
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.knap {
+    border: 1px solid #D1A85D;
+    background-color: black;
+    color: #FF6FC6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+}
+
+.ikon {
+    height: auto;
+    width: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.margin {
+    margin: 30px;
+}
+
+.info_billede {
+  height: 400px;
+  width: 600px;
+  margin: 0px 50px;
+}
+
+/*Panorama*/
+#panorama {
+    width: 1000px; /*1920 x 1080 (minus "Nat/dag ændring")*/
+    height: 666px;
+    margin-bottom: 50px;
+}
+
+/* Om os */
+.omosheader {
+  margin-top: 30px;
+  margin-left: 120px;
+  font-family: 'Tilt Prism', sans-serif;
+  font-size: 3.5rem;
+  color:#FF6FC6;
+}
+
+.omostekst {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+.open_img {
+  max-width: 40%;
+  margin-left: 30px;
+}
+
+/* Kontakt */
+
+.kontaktheader {
+  margin-top: 30px;
+  margin-left: 120px;
+  font-family: 'Tilt Prism', sans-serif;
+  font-size: 3.5rem;
+  color:#FF6FC6;
+}
+
+.container {
+  display: flex;
+}
+
+.iframe {
+  max-width: 40%;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+.image {
+  flex-basis: 40%
+}
+
+.kontakttekst {
+  font-size: 20px;
+  font-family: 'Quick Sand', sans-serif;
+  padding-top: 40px;
+  padding-left: 40px;
+  color: white;
+}
+
+.adressetekst {
+  font-size: 20px;
+  font-family: 'Quick Sand', sans-serif;
+  padding-top: 40px;
+  padding-left: 40px;
+  color: #FF6FC6;
+}
+
+.follow {
+  margin-left: 30px;
+}
+
+.some {
+  margin: 15px 30px;
+}
