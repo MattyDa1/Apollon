@@ -6,12 +6,24 @@ pannellum.viewer('panorama', {
     "panorama": "img/dag_udenfor1.PNG",
     "autoLoad": true,
     /*Hot Spot*/
-    "hotSpots": [ //Ændre hotspot + fixe pop up ang modal ting
+    "hotSpots": [
         {
             "pitch": -10,
             "yaw": 0,
             "type": "info",
-            "text": "Bar ejeren"
+            "text": "Bygningen"
         },
+        {
+            "pitch": -2,
+            "yaw": -13,
+            "type": "scene",
+            "text": "Baren",
+        },
+        {
+            "pitch": -2,
+            "yaw": 50,
+            "type": "scene",
+            "text": "Apollon Udenfor",
+        }
     ]
 });

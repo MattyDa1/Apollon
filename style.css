@@ -57,6 +57,7 @@ body {
 /* Navigation bar */
 .logo {
   height: 60px;
+  width: auto;
   margin-left: 100px;
 }
 
@@ -123,6 +124,7 @@ body {
   
   .apollon_img {
     height: 450px;
+    width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;

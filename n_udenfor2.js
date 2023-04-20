@@ -13,5 +13,11 @@ pannellum.viewer('panorama', {
             "type": "info",
             "text": "Interview med Patrick"
         },
+        {
+            "pitch": -2.1,
+            "yaw": -50,
+            "type": "scene",
+            "text": "Apollon front",
+        }
     ]
 });

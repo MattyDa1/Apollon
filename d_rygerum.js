@@ -8,12 +8,18 @@ pannellum.viewer('panorama', {
     "pitch": -9,
     "yaw": -125,
     /*Hot Spot*/
-    "hotSpots": [//Ændre hotspot + fixe pop up ang modal ting
+    "hotSpots": [
         {
             "pitch": -9,
             "yaw": 93,
             "type": "info",
             "text": "Nye Kunder"
         },
+        {
+            "pitch": -2.1,
+            "yaw": 154,
+            "type": "scene",
+            "text": "Baren",
+        }    
     ]
 });

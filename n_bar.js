@@ -8,7 +8,7 @@ pannellum.viewer('panorama', {
     "pitch": 0,
     "yaw": -100,
     /*Hot Spot*/
-    "hotSpots": [//Ændre hotspot + fixe pop up ang modal ting
+    "hotSpots": [
     {
         "pitch": 8,
         "yaw": -100,
@@ -21,5 +21,17 @@ pannellum.viewer('panorama', {
         "type": "info",
         "text": "Stamkunden"
     },
-]
+    {
+        "pitch": -2.1,
+        "yaw": -174,
+        "type": "scene",
+        "text": "Rygerummet",
+    },
+    {
+        "pitch": -2.1,
+        "yaw": 129,
+        "type": "scene",
+        "text": "Apollon front",
+    }
+    ]
 });

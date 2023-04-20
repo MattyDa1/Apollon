@@ -11,7 +11,19 @@ pannellum.viewer('panorama', {
             "pitch": -10,
             "yaw": 0,
             "type": "info",
-            "text": "Bar ejeren"
+            "text": "Bygningen"
         },
+        {
+            "pitch": -25,
+            "yaw": -13,
+            "type": "scene",
+            "text": "Baren",
+        },
+        {
+            "pitch": -20,
+            "yaw": 50,
+            "type": "scene",
+            "text": "Apollon Udenfor",
+        }
     ]
 });

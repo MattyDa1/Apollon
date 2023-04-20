@@ -15,5 +15,11 @@ pannellum.viewer('panorama', {
         "type": "info",
         "text": "Nye Kunder"
     },
+    {
+        "pitch": -2.1,
+        "yaw": 90,
+        "type": "scene",
+        "text": "Baren",
+    }
 ]
 });

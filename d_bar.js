@@ -21,5 +21,17 @@ pannellum.viewer('panorama', {
         "type": "info",
         "text": "Stamkunden"
     },
-]
+    {
+        "pitch": -2.1,
+        "yaw": -168,
+        "type": "scene",
+        "text": "Rygerummet",
+    },
+    {
+        "pitch": 0.5,
+        "yaw": 134,
+        "type": "scene",
+        "text": "Apollon front",
+    }
+    ]
 });
